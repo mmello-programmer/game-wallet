@@ -1,63 +1,162 @@
+/* Reset de estilos padrão do navegador */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos gerais */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  header {
-    background-color: #333;
-    padding: 10px;
-    text-align: center;
-  }
-  
-  nav {
-    display: flex;
-    justify-content: space-around;
-    background-color: #444;
-    padding: 10px;
-    list-style: none;
-  }
-  
-  nav a {
-    color: white;
-    text-decoration: none;
-    position: relative;
-    padding: 10px;
-  }
-  
-  nav a:hover {
-    text-decoration: underline;
-  }
-  
-  nav ul {
-    display: none;
-    position: absolute;
-    background-color: #444;
-    list-style: none;
-    margin: 0;
-    padding: 10px;
-    width: 200px;
-  }
-  
-  nav ul li {
-    padding: 10px;
-    margin-bottom: 10px;
-  }
-  
-  nav li:hover > ul {
-    display: block;
-  }
-  
-  nav li {
-    display: block;
-    position: relative;
-  }
-  
-  nav li:nth-child(1) {
-    margin-right: 20px;
-  }
-  
-  main {
-    padding: 20px;
-  }
-  
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos do cabeçalho */
+.site-header {
+  text-align: center;
+  padding: 0px 0; /* Adiciona espaço acima e abaixo do cabeçalho */
+}
+
+.site-logo {
+  display: block;
+  align-self: bottom;
+  float: right;
+   /* Ajuste a margem superior conforme necessário */
+  margin-right: 200px;
+  margin-top: -340px;
+  max-width: 600px;
+  height: auto;
+}
+
+.site-welcome {
+  margin: 100px 200px;
+  max-width: 600px; /* Largura máxima para melhor legibilidade */
+  text-align: center;
+}
+
+.site-welcome h2 {
+  color: #000000;
+  font-size: 3em; /* Ajuste o tamanho do texto conforme necessário */
+  margin-bottom: 10px; /* Adiciona espaço abaixo do título */
+}
+
+.site-welcome p {
+  color: #555;
+  font-size: 1.2em;
+}
+
+.site-welcome-buttons {
+  display: flex;
+  gap: 50px;
+  margin-top: 0px;
+  margin-right: 950px ;
+  justify-content: center; /* Centraliza os botões */
+}
+
+.welcome-button {
+  background-color: #681fc7;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.welcome-button:hover {
+  background-color: #001f3f;
+}
+
+/* Estilos de navegação */
+.site-nav {
+  background-color: #420592;
+  position: relative;
+  padding: 10px;
+  z-index: 1;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-item {
+  position: relative;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  display: block;
+}
+
+.nav-link:hover {
+  background-color: #003366;
+  color: #fff;
+}
+
+.sub-nav {
+  display: none;
+  position: absolute;
+  background-color: hsl(202, 47%, 41%);
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+  width: 200px;
+}
+
+.nav-item:hover .sub-nav {
+  display: block;
+}
+
+.sub-nav li {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.sub-nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.sub-nav a:hover {
+  background-color: #003366;
+  color: #fff;
+}
+
+.login {
+  position: absolute;
+  top: 0px; /* Ajuste conforme necessário para alinhar na mesma linha */
+  right: 0;
+  margin: 10px;
+}
+
+.login-button {
+  background-color: #003366;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  font-size: 0.8em;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.login-button:hover {
+  background-color: #001f3f;
+}
+
+
+.footer {
+
+  display: block;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 12px;
+  margin-top: 400px;
+  text-align: center;
+  background-color: hsl(202, 47%, 41%);
+}
