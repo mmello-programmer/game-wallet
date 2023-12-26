@@ -22,10 +22,10 @@ body {
   align-self: bottom;
   float: right;
    /* Ajuste a margem superior conforme necessário */
-  margin-right: 200px;
-  margin-top: -340px;
+  margin-right: 350px;
+  margin-top: -300px;
   max-width: 600px;
-  height: auto;
+  height: 350px;
 }
 
 .site-welcome {
@@ -48,8 +48,8 @@ body {
 .site-welcome-buttons {
   display: flex;
   gap: 50px;
-  margin-top: 0px;
-  margin-right: 950px ;
+  padding-top: 200px;
+  padding-left: 800px;
   justify-content: center; /* Centraliza os botões */
 }
 
@@ -148,16 +148,14 @@ body {
 
 
 .footer {
-  position: fixed;
+  position: absolute;
   bottom: 0;
-  width: 100%;
   background-color: #420592;
   color: #fff;
-  padding: 10px;
   text-align: center;
   font-family: 'Arial', sans-serif;
   font-size: 18px;
-  margin-top: 0px;
+  float: inline-end;
 }
 
 .text {
