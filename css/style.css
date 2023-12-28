@@ -1,21 +1,29 @@
 /* Reset de estilos padrão do navegador */
-body, h1, h2, h3, p, ul, li {
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
   margin: 0;
   padding: 0;
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(149,99,142,1) 100%, rgba(0,212,255,1) 100%); 
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(149, 99, 142, 1) 100%, rgba(0, 212, 255, 1) 100%);
+}
 
 /* Estilos gerais */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  
+
 }
 
 /* Estilos do cabeçalho */
 .site-header {
   text-align: center;
-  padding: 0px 0; /* Adiciona espaço acima e abaixo do cabeçalho */
+  padding: 0px 0;
+  /* Adiciona espaço acima e abaixo do cabeçalho */
   background: none;
 
 }
@@ -24,7 +32,7 @@ body {
   display: block;
   align-self: bottom;
   float: right;
-   /* Ajuste a margem superior conforme necessário */
+  /* Ajuste a margem superior conforme necessário */
   margin-right: 200px;
   margin-top: -470px;
   max-width: 600px;
@@ -35,7 +43,8 @@ body {
 
 .site-welcome {
   margin: 250px 200px;
-  max-width: 600px; /* Largura máxima para melhor legibilidade */
+  max-width: 600px;
+  /* Largura máxima para melhor legibilidade */
   text-align: center;
   background: none;
 
@@ -43,8 +52,10 @@ body {
 
 .site-welcome h2 {
   color: #fff;
-  font-size: 3em; /* Ajuste o tamanho do texto conforme necessário */
-  margin-bottom: 10px; /* Adiciona espaço abaixo do título */
+  font-size: 3em;
+  /* Ajuste o tamanho do texto conforme necessário */
+  margin-bottom: 10px;
+  /* Adiciona espaço abaixo do título */
   text-decoration: none;
   background: none;
 }
@@ -60,8 +71,9 @@ body {
   display: flex;
   gap: 100px;
   margin-top: -100px;
-  margin-right: 990px ;
-  justify-content: center; /* Centraliza os botões */
+  margin-right: 990px;
+  justify-content: center;
+  /* Centraliza os botões */
   background: none;
 
 }
@@ -103,7 +115,8 @@ body {
 .nav-item {
   position: right;
   background-color: none;
-  top: 50px; /* Ajuste conforme necessário para alinhar na mesma linha */
+  top: 50px;
+  /* Ajuste conforme necessário para alinhar na mesma linha */
   right: 0;
   margin: 0px;
   font-family: 'Arial', sans-serif;
@@ -115,7 +128,7 @@ body {
   text-decoration: none;
   color: rgb(255, 255, 255);
   padding: 10px;
-  display: block;  
+  display: block;
   background-color: transparent;
 }
 
@@ -133,7 +146,8 @@ body {
 
 .site-login {
   position: absolute;
-  top: 0px; /* Ajuste conforme necessário para alinhar na mesma linha */
+  top: 0px;
+  /* Ajuste conforme necessário para alinhar na mesma linha */
   right: 0;
   margin: 10px;
   cursor: pointer;
@@ -174,7 +188,8 @@ body {
 
 .site-menu {
   position: absolute;
-  top: 0px; /* Ajuste conforme necessário para alinhar na mesma linha */
+  top: 0px;
+  /* Ajuste conforme necessário para alinhar na mesma linha */
   left: 0;
   margin: 10px;
   width: 1.5%;
