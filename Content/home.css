@@ -1,0 +1,187 @@
+/* Reset de estilos padrão do navegador */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(149, 99, 142, 1) 100%, rgba(0, 212, 255, 1) 100%);
+}
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos do cabeçalho */
+.site-header {
+    text-align: center;
+    padding: 0px 0;
+    /* Adiciona espaço acima e abaixo do cabeçalho */
+    background: none;
+}
+
+.site-logo {
+    display: block;
+    align-self: bottom;
+    float: right;
+    /* Ajuste a margem superior conforme necessário */
+    margin-right: 200px;
+    margin-top: -470px;
+    max-width: 600px;
+    height: auto;
+    background: none;
+}
+
+.site-welcome {
+    margin: 250px 200px;
+    max-width: 600px;
+    /* Largura máxima para melhor legibilidade */
+    text-align: center;
+    background: none;
+}
+
+    .site-welcome h2 {
+        color: #fff;
+        font-size: 3em;
+        /* Ajuste o tamanho do texto conforme necessário */
+        margin-bottom: 10px;
+        /* Adiciona espaço abaixo do título */
+        text-decoration: none;
+        background: none;
+    }
+
+    .site-welcome p {
+        color: #fff;
+        font-size: 1.2em;
+        background: none;
+    }
+
+.site-welcome-buttons {
+    display: flex;
+    gap: 100px;
+    margin-top: -100px;
+    margin-right: 990px;
+    justify-content: center;
+    /* Centraliza os botões */
+    background: none;
+}
+
+.welcome-button {
+    background-color: none;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    text-decoration: none;
+    background: none;
+}
+
+
+
+/* Estilos de navegação */
+.site-nav {
+    background-color: none;
+    position: absolute;
+    top: 0px;
+    right: 60px;
+    padding: 10px;
+    z-index: 1;
+    font-family: 'Arial', sans-serif;
+    background-color: transparent;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Arial', sans-serif;
+    background: none;
+}
+
+.nav-item {
+    position: right;
+    background-color: none;
+    top: 50px;
+    /* Ajuste conforme necessário para alinhar na mesma linha */
+    right: 0;
+    margin: 0px;
+    font-family: 'Arial', sans-serif;
+    background: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    display: block;
+    background-color: transparent;
+}
+
+
+.sub-nav {
+    display: none;
+    position: block;
+    margin: 0;
+    padding: 10px;
+    width: 200px;
+    background-color: transparent;
+}
+
+
+.site-login {
+    position: absolute;
+    top: 0px;
+    /* Ajuste conforme necessário para alinhar na mesma linha */
+    right: 0;
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+.facebook {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 10px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.instagram {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.whatsapp {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: 90px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+
+.site-menu {
+    position: absolute;
+    top: 0px;
+    /* Ajuste conforme necessário para alinhar na mesma linha */
+    left: 0;
+    margin: 10px;
+    width: 1.5%;
+    cursor: pointer;
+    background-color: transparent;
+}
